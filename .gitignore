@@ -1,0 +1,26 @@
+# Konfigurasi Database & Data Sensitif
+config/koneksi.php
+koneksi.php
+.env
+
+# Folder Library (Sangat Berat)
+/vendor/
+/node_modules/
+/composer/
+/maennchen/
+/markbaker/
+/phpoffice/
+/psr/
+
+# File Log & Error
+error_log
+npm-debug.log
+
+# Upload User (Agar data pribadi orang tidak ikut terupload)
+/uploads/
+/uploads/Subbag_TU
+
+# File Sistem Operasi & Editor
+.DS_Store
+Thumbs.db
+.vscode/
